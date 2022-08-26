@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" />
+    <script src="Display.js" type="text/javascript"></script>
+    <script src="Calculadora.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript" defer></script>
+</head>
+<body>
+    
+    <tr>
+        <td><img width="280px" height="250px" src="C:\Users\domin\OneDrive\Escritorio\Waterfall model.JPG"></td>
+        <td><h1>Waterfall model</h1>Waterfall:
+            Waterfall project management originated in construction and manufacturing, industries in which one phase must be completed before the next begins. The roof cannot be started, for example, if the structure is not completed. This emphasis on linear concreteness is critical to the waterfall workflow.
+            The waterfall methodology uses well-defined phases, rather than concurrent jobs. If you use the waterfall methodology, you must complete each stage before the next stage can begin. Similarly, you cannot go back to a previous phase. Any revision requires starting the entire process all over again. So if you're considering whether to use agile or waterfall as your project management style, remember that waterfall offers less flexibility.</p></td>
+        <td>
+        </td>
+    </tr>
+
+    <tr>
+        <td><img width="280px" height="250px" src="C:\Users\domin\OneDrive\Escritorio\Agile.JPG"></td>
+        <td><h1>Agile model</h1>agile:
+            This is the most characteristic feature when comparing the waterfall methodology with the agile one. Agile methods break projects down into smaller, iterative periods, which works especially well for products that benefit from regular user testing and review (for example, software).</p></td>
+        <td>
+        </td>
+    </tr>
+
+    <tr>
+        <td><img width="280px" height="250px" src="C:\Users\domin\OneDrive\Escritorio\Scrum.JPG"></td>
+        <td><h1>Scrum model</h1>Scrum uses two-week sprints to get work done. These sprints are planned in advance, carried out, and then reviewed at the end of these two weeks. During sprint planning, the team creates a to-do record for that sprint. The team does these to-dos during the sprint and manages the work among themselves.
+            Additionally, team members hold a 15-minute Scrum meeting each day of the sprint. At that time, the collaborators analyze the possible obstacles that interfere with the success of the project. They also review the previous day's work and plan the next day's tasks. The Scrum meeting ensures that the team works collaboratively and stays in sync.</p></td>
+        <td>
+        </td>
+    </tr>
+
+    <div class="container">
+        <div class="calculadora">
+            <div class="display">
+                <div id="valor-anterior"></div>
+                <div id="valor-actual"></div>
+            </div>
+            <button class="col-2" onclick="display.borrarTodo()">C</button>
+            <button onclick="display.borrar()">&larr;</button>
+            <button class="operador" value="dividir">/</button>
+            <button class="numero">7</button>
+            <button class="numero">8</button>
+            <button class="numero">9</button>
+            <button class="operador" value="multiplicar">X</button>
+            <button class="numero">4</button>
+            <button class="numero">5</button>
+            <button class="numero">6</button>
+            <button class="operador" value="restar">-</button>
+            <button class="numero">1</button>
+            <button class="numero">2</button>
+            <button class="numero">3</button>
+            <button class="operador" value="sumar">+</button>
+            <button class="col-2 numero">0</button>
+            <button class="numero">.</button>
+            <button class="operador" value="igual">=</button>
+        </div>
+    </div>
+</body>
+</html>
